@@ -1,0 +1,180 @@
+<!doctype html>
+<html class="no-js" lang="en-us"> 
+<head> 
+    <meta charset="utf-8">
+    
+   <title>Humanitarian OpenStreetMap Team</title>
+    <meta name="author" content="Swati Dewan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- StyleSheet --> 
+    <link rel="stylesheet" href="global.css">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="carousel.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link rel='stylesheet prefetch' href='bootstrap.css'>
+    <link rel="stylesheet" href="screen.css">
+    
+    <!-- JavaScript -->
+    <script src="modernizr.js"></script>
+    <script src="ie-emulation-modes-warning.js"></script>
+    
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+</head>
+
+<body class="home">
+	<div class="navbar-wrapper">
+		<div class="container">
+			<nav class="navbar navbar-inverse navbar-static-top">
+				<div class="container">
+					<div class="navbar-header">
+            			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                			<span class="sr-only">Toggle navigation</span>
+                			<span class="icon-bar"></span>
+                			<span class="icon-bar"></span>
+                			<span class="icon-bar"></span>
+             			</button>
+            		</div>
+					<div id="navbar" class="navbar-collapse collapse">
+						<ul class="nav navbar-nav">	
+        	        		<li class="active"><a href="#">Home</a></li>
+        	        		<li><a href="#about">About</a></li>
+        	        		<li><a href="#projects">Projects</a></li>
+        	       			<li><a href="#getinvolved">Get Involved</a></li>
+        	       		    <li><a href="#update">Updates</a></li>
+        	        		<li><a href="#contact">Contact Us</a></li>
+						</ul>
+             		   <ul class="nav navbar-nav navbar-right">
+        	        		<li> <a href="#register"> Register </a> </li>
+        	        		<li> <a href="#login"> Login </a> </li>
+        	    	   </ul>
+        	       </div>
+  				</div>
+			</nav>
+		</div>
+	</div>
+
+<!-- Carousel -->
+
+	<div id="myCarousel" class="carousel slide" data-ride="carousel" data-pause="False">
+
+<!-- Indicators -->
+
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner" role="listbox">
+			<div class="item active">
+				<div id="main-wrap">
+				    <div id="sidebar"><img class="first-slide" src="logo.jpg"  height="500" width="500" alt="First slide"></div>
+    					<div id="content-wrap"><br><br><br><h1>What is Humanitarian OpenStreetMap ?</h1> <br><br><p>Free, up-to-date maps are a critical resource when relief organizations are responding to disasters or political crises. The Humanitarian OpenStreetMap Team (HOT) creates and provides those maps.<br><a class="btn btn-lg btn-primary" href="#" role="button">Learn More about us!</a></p>
+    					</div>
+					</div>
+				</div>
+				<div class="item">
+					<div id="main-wrap">
+    					<div id="sidebar"><img class="second-slide" src="nepal.png"  height="500" width="500" alt="Second slide">
+    				    </div>
+    					<div id="content-wrap"><br><br><br><h1>Nepal 2015 Earthquake Response</h1> <br><br><p>The 2015 Nepal earthquake struck on 25th April with a magnitude of 7.8, followed by many aftershocks including a large magnitude 7.3 quake on 12 May. The quakes have caused widespread damage in the city of Kathmandu and the surrounding region.<br><a class="btn btn-lg btn-primary" href="#" role="button">Learn More about Ongoing Projects</a></p>
+   						 </div>
+					</div>
+				</div>
+				<div class="item">
+					<div id="main-wrap">
+    					<div id="sidebar"><img class="third-slide" src="new.jpg"  height="500" width="500" alt="Third slide"></div>
+   					    	<div id="content-wrap"><br><br><br><h1>Get Involved!</h1> <br><br><p>HOT benefits from contributors with a wide range of interests and experience. Anyone with the right motivation can make a tremendous contribution to fulfilling our mission.<br><a class="btn btn-lg btn-primary" href="#" role="button">Get Involved!</a></p>
+    						</div>
+						</div>
+					</div>
+          		</div>
+			</div>
+<!-- /.carousel -->
+																																						
+   			<div id="container" role="document">
+        		<div id="wrap">
+            		<header role="banner">
+                	    <p class="lang" dir="ltr">
+                    		<a  lang="fr-fr">Français</a>
+                    	 	 <a  lang="en-us">English</a>
+                  		</p>
+                	</header>
+                </div>
+            </div>
+
+<!-- Three columns of text below the carousel -->
+ 
+  		    <div class="container marketing">
+      			<div class="row">
+        			<div class="col-lg-4">
+        				<img class="img-circle" src="technical.jpg" alt="Generic placeholder image" width="140" height="140">
+          					<h2>Technical Projects</h2>
+          					<p>HOT develops several open source programs and applications to leverage collaborative mapping and the use of new technologies in the field of geographic information for humanitarian aid.</p>
+							 <p><a class="btn btn-default" href="#" role="button">Check them out!</a></p>
+ 			       </div>
+        		<div class="col-lg-4">
+          			<img class="img-circle" src="partnerships.jpg" alt="Generic placeholder image" width="140" height="140">
+          			<h2>Collaborations</h2>
+          				<p>HOT assists international organizations as well as governments and first responders with mapping needs during disaster. Additionally, HOT participates in various long-term projects with our partners.</p>
+          				<p><a class="btn btn-default" href="#" role="button">View more details</a></p>
+        		</div>
+      		    <div class="col-lg-4">
+          			<img class="img-circle" src="donate.jpg" alt="Generic placeholder image" width="140" height="140">
+          				<h2>Donate</h2>
+          					<p>The Humanitarian OpenStreetMap Team operates primarily on a project based budget. Your donations allow us to operate outside the specifics of a project and further strengthen the organization. To help our activities please donate:</p>
+         					<p><a class="btn btn-default" href="#" role="button">Donate</a></p>
+        		</div>
+      		</div>
+      </div>
+      <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-pause="False">
+   
+    <!-- Carousel items -->
+    
+      	<div class="carousel-inner">
+        	<div class="active item">
+				<h2>Join #100mapathons for OSMGeoWeek 2015!</h2>
+					<p><i>Posted by pedrito1414 on Oct, 9 2015</i></p>
+					<p>November 15th-21st is Geography Awareness Week, and HOT and our Missing Maps partners are planning to support it in a huge way this year! We’re aiming for (at least) 100 mapping parties, mapathons, mappy hours and mapternoons happening around the world in a single week, to join with the rest of the activities being planned by other groups and organizations.
+					<br/><br/>
+				<a href="#">Read more...</a></p>
+			</div>
+        	<div class="item">
+            	<h2>The new OSM Export Tool is Live</h2>
+					<p><i>Posted by Mhairi O'Hara on Oct, 6 2015</i></p>
+					<p>The newly developed Export Tool is now LIVE. Please register with your OSM username and explore some of the new functionality, such as the use of 'Nominatim' to search for areas of interest and the interactive 'Tree Tag' tab to select specific OSM features for export.
+					<br/><br/>
+					<a href="#">Read more...</a></p>
+        	</div>
+        	
+        	<div class="item">
+        		<h2>HOT Announces Tyler Radford as our Executive Director</h2>
+					<p><i>Posted by Heather Leson on Oct, 2 2015</i></p>
+					<p>We are excited to announce that Tyler Radford has accepted the position of Executive Director of Humanitarian OpenStreetMap Team. Since Tyler was named Interim Executive Director 5 months ago, HOT successfully initiated a new 13-month preparedness and response project in Indonesia, scaled up operations in Dar es Salaam, completed the first stage of the OpenAerialMap project, launched the disaster Activation Protocol / HOT Training Center, and delivered a refreshed HOT Export tool.
+			<br/><br/>
+					<a href="#">Read more...</a></p>
+			</div>
+    	</div>
+	</div>
+	<a id="updates" class="btn btn-lg btn-primary" href="#" role="button">More Updates</a>
+	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.js'></script>
+    <script src="index.js"></script>
+	<script>
+        var _gaq = [['_setAccount','UA-18398717-1'],['_trackPageview']];
+        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+        g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+        s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+    
+<!-- Bootstrap core JavaScript -->
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,36 @@
+body {
+	background:rgb(23, 23, 23)
+}
+
+#container {
+	background:transparent no-repeat 50% -60px;
+	padding:0;
+	width:100%;
+}
+
+h1 {
+	color:rgb(115, 178, 185);
+}
+
+a, a:visited {
+	color:rgb(230, 233, 154);
+}
+
+a:hover {
+	background-color:transparent;
+	color:rgb(250, 250, 250);
+}
+
+a:focus {
+	outline-color:rgb(250,250, 250);
+}
+
+header[role="banner"] {
+	height:450px;
+}
+
+p.lang {
+	position:absolute;
+	top:6px;
+	right:12%;
+}
